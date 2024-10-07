@@ -59,9 +59,10 @@ body {
     margin-left: 20px;
 }
 
-.placeholder {
-    margin-bottom: 20px;
-    width: 100%;
+video {
+    width: 100%; 
+    max-width: 600px; 
+    height: auto; 
 }
 
 .placeholder svg {
