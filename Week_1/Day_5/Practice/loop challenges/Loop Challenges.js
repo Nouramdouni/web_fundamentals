@@ -1,27 +1,27 @@
 function prinodd1_20()
 { 
-    for (var i=1 ;i<=20;i++) 
-    { 
-        console.log(i)
+    for (let i = 1; i <= 20; i++) {
+        if (i % 2 !== 0) {
+            console.log(i);
+        }
     }
 } 
 prinodd1_20()
 /***************************************** */ 
 function printthesequence()
 {
-    for(var i=1;i<=100;i++)
-    {
-        if (i%3==0) 
-        { 
-            console.log(i)
+    for (let i = 100; i >= 0; i--) {
+        if (i % 3 === 0) {
+            console.log(i);
         }
     }
+    
 } 
 printthesequence()
 /********************************************* */ 
 function singma()
 {
-    for(vari=4 ;i<=-3.5 ;i--) 
+    for(vari=4 ;i>=-3.5 ;i--) 
         {console.log(i)}
         
 
