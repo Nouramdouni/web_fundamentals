@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+/*******************header*****************************/
+.header {
+    background-color: rgb(159, 197, 248);
+    color: white;
+    display: flex;
+    align-items: center;
+    width: 900px;
+    margin: 0px auto;
+    justify-content: space-around;
+}
+
+.header h3 {
+    font-size: 30px;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    list-style: none;
+}
+
+/*****************main******************************/
+.main {
+    background-color: brown;
+    width: 800px;
+    margin: 0px auto;
+
+}
+
+/****************son********************************/
+.son {
+    background-color: aqua;
+    display: flex;
+    align-items: center; 
+    margin-top: 50PX;
+    justify-content: space-between;
+}
+
+.son h5 {
+    font-size: 20px;
+}
+
+
+.son select {
+    border: 2px black solid;
+}
+
+/*********************days****************************/
+.days {
+
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+    border-top: solid black; 
+    
+
+}
+
+.day {
+    background-color: rgb(238, 238, 238);
+    margin-top:20px;  
+    display: flex; 
+    flex-direction: column; 
+    width: 150px;  
+    height: 250px; 
+    padding-top: 10px;
+    text-align: center;  
+
+
+}
+
+.day img {   
+    
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1>DojoWeather</h1>
+            <ul onclick="display(this)">
+                <li>burbank</li>
+                <li>chicago</li>
+                <li>dallas</li>
+            </ul>
+        </div>
+        <div class="box">
+            <div class="tete">
+                <h2 class="san">san Jose</h2>
+                <div class="choice">
+                    <p>show tempearture in</p>
+                    <select class="sel" onchange="changeTemp()">
+                        <option>°c</option>
+                        <option >°f</option>
+                    </select>
+                </div>    
+            </div>
+            <div class="box1">
+                <div class="weather">
+                    <h2>today</h2>
+                    <img src="./assets/some_rain.png" alt="rain" class="imge">
+                    <p>some rain</p>
+                    <div class="temp">
+                        <span class="hot" id="f1">24</span>
+                        <span class="cold" id="f2">18</span>
+                    </div>
+                </div>
+                <div class="weather">
+                    <h2 class="day">tomorrow</h2>
+                    <img src="./assets/some_sun.png" alt="some_sun" class="imge">
+                    <p>some sun</p>
+                    <div class="temp">
+                        <span class="hot" id="f3">27</span>
+                        <span class="cold" id="f4">19</span>
+                    </div>
+                </div>
+                <div class="weather">
+                    <h2 class="day">friday</h2>
+                    <img src="./assets/some_clouds.png" alt="some_clouds" class="imge">
+                    <p>some cloud</p>
+                    <div class="temp">
+                        <span class="hot" id="f5">21</span>
+                        <span class="cold" id="f6">16</span>
+                    </div>
+                </div>
+                <div class="weather">
+                    <h2 class="day">saturday</h2>
+                    <img src="./assets/some_sun.png" alt="some_sun" class="imge">
+                    <p>some sun</p>
+                    <div class="temp">
+                        <span class="hot" id="f7">26 </span>
+                        <span class="cold" id="f8">21</span>
+                    </div>
+                </div>
+            </div>
+            <div class="cookies" id="del">
+                <img src="./assets/cookie.png" alt="cookie" class="cookiess">
+                <div class="stop">    
+                    <h3>stop! cookie time</h3>
+                    <p>we use cookies(sadly not the edible ones)to person   lize content and ads,to provide social media feature and to analyse our traffic. <span class="read">read more...</span></p>
+                </div>
+                <button type="button" onclick="delet('#del')">IAccept</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
